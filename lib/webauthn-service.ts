@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 class WebAuthnService {
-  private baseUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001";
+  private baseUrl = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:3001";
 
   async register(userData: { email: string; username: string }) {
     try {

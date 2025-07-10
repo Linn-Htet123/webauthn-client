@@ -9,7 +9,6 @@ import { Label } from "@/components/ui/label";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Loader2, UserPlus } from "lucide-react";
 import { webAuthnService } from "@/lib/webauthn-service";
-
 interface RegistrationFormProps {
   onSuccess: () => void;
 }
